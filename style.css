@@ -10,10 +10,10 @@
     display: block;
     text-align: right;
 }
-.header .header-img {
+.header .header__img {
     width: 100%;
 }
-.header .more-inf {
+.header .header__more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -32,7 +32,7 @@
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.add__task-row-wrapper {
     display: flex;
 }
 ul {
@@ -61,7 +61,7 @@ input,
 }
 /* Heading */
 .title-list-tasks,
-.add-item-title {
+.add__item-title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -87,7 +87,7 @@ input,
 }
 
 /* New Task */
-.add-item-title {
+.add__item-title {
     display: block;
     margin: 0 0 20px;
 }
